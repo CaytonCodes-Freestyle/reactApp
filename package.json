@@ -1,0 +1,31 @@
+{
+  "name": "grocerylist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "List Grocery Items",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --watch",
+    "nodeIt": "nodemon ./server/server.js",
+    "sart": "npm run build & npm run nodeIt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.12.3",
+    "webpack-cli": "^4.3.1"
+  }
+}
